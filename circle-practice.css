@@ -1,0 +1,334 @@
+*{margin:0px;
+padding:0px;
+box-sizing:border-box;}
+
+body{height:100vh;
+background:#000009;
+overflow:hidden;
+}
+
+.container{height:400px;
+width:400px;
+position:relative;
+border:none;
+left:calc(50% - 350px / 2);
+top:calc(50% - 350px / 2);
+}
+
+.circle1{height:350px;
+width:350px;
+background:transparent;
+border:8px solid #00ff9f;
+border:none;
+border-radius: 50%;
+position:absolute;
+animation:circle1 linear 1 9s ;
+left:calc(50% - 350px / 2);
+top:calc(50% - 350px / 2);
+box-shadow: 0px 0px 40px 30px #00ff9f;
+}
+
+
+@keyframes circle1{0%{
+left:calc(50% - 350px / 2);
+top:calc(100% - 350px / 2);
+
+
+}
+
+5%{left:calc(50% - 350px / 2);
+top:calc(50% - 350px / 2);
+transform:rotatex(-360deg) rotatey(-30deg) translate(0) scale(1) translate(0);
+}
+
+10%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+20%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+25%{transform:scale(10);
+top:calc(50% -500px/2);
+left:calc(50% - 350px / 2);}
+
+30%{
+left:calc(50% - 350px / 2);
+top:calc(50%-500px/2);
+transform:scale(15);}
+
+40%{transform:scale(1) perspective(800px) rotatey(0deg) rotatex(0deg) scale(1) translate(0);}
+
+90%{left:calc(50% - 350px / 2);
+top:calc(50% - 350px / 2);
+transform:rotatex(180deg) rotatey(90deg) scale(1) translate(0);
+}
+
+
+
+
+
+
+}
+
+.circle2{height:320px;
+width:320px;
+background:transparent;
+border:8px solid #0015ff ;
+/* border:none; */
+border-radius: 50%;
+position:absolute;
+animation:circle2 linear 1 10s ;
+left:calc(50% - 320px / 2);
+top:calc(50% - 320px / 2);
+box-shadow: 0px 0px 10px 10px #0008ff;
+}
+
+
+@keyframes circle2{0%{
+left:calc(50% - 320px / 2);
+top:calc(100% - 320px / 2);
+
+
+}
+
+5%{left:calc(50% - 320px / 2);
+top:calc(50% - 320px / 2);
+transform:rotatex(-360deg) rotatey(-30deg) translate(0) scale(1) translate(0);
+}
+
+10%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+20%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+25%{transform:scale(10);
+top:calc(50% -320px/2);
+left:calc(50% - 320px / 2);}
+
+30%{
+left:calc(50% - 320px / 2);
+top:calc(50%-500px/2);
+transform:scale(15);}
+
+40%{transform:scale(1) perspective(800px) rotatey(0deg) rotatex(0deg) scale(1) translate(0);}
+
+90%{left:calc(50% - 320px / 2);
+top:calc(50% - 320px / 2);
+transform:rotatex(180deg) rotatey(90deg) scale(1) translate(0);
+}
+
+
+
+
+
+
+}
+
+
+.circle3{height:290px;
+width:290px;
+background:transparent;
+border:8px solid #ff0000;
+border:none;
+border-radius: 50%;
+position:absolute;
+animation:circle3 linear 1 11s ;
+left:calc(50% - 290px / 2);
+top:calc(50% - 290px / 2);
+box-shadow: 0px 0px 10px 10px #ff0000;
+}
+
+
+@keyframes circle3{0%{
+left:calc(50% - 290px / 2);
+top:calc(100% - 290px / 2);
+
+
+}
+
+5%{left:calc(50% - 290px / 2);
+top:calc(50% - 290px / 2);
+transform:rotatex(-360deg) rotatey(-30deg) translate(0) scale(1) translate(0);
+}
+
+10%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+20%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+25%{transform:scale(10);
+top:calc(50% -260px/2);
+left:calc(50% - 260px / 2);}
+
+30%{
+left:calc(50% - 290px / 2);
+top:calc(50%-290px/2);
+transform:scale(15);}
+
+40%{transform:scale(1) perspective(800px) rotatey(0deg) rotatex(0deg) scale(1) translate(0);}
+
+90%{left:calc(50% - 290px / 2);
+top:calc(50% - 290px / 2);
+transform:rotatex(180deg) rotatey(90deg) scale(1) translate(0);
+}
+
+
+
+
+
+
+}
+
+.circle4{height:260px;
+width:260px;
+background:transparent;
+border:8px solid #ff00b3;
+border:none;
+border-radius: 50%;
+position:absolute;
+animation:circle4 linear 1 12s;
+left:calc(50% - 260px / 2);
+top:calc(50% - 260px / 2);
+box-shadow: 0px 0px 10px 10px #ff00ae;
+}
+
+
+@keyframes circle4{0%{
+left:calc(50% - 260px / 2);
+top:calc(100% - 260px / 2);
+
+
+}
+
+5%{left:calc(50% - 260px / 2);
+top:calc(50% - 260px / 2);
+transform:rotatex(-360deg) rotatey(-30deg) translate(0) scale(1) translate(0);
+}
+
+10%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+20%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+25%{left:calc(50% - 260px / 2);
+top:calc(50% -260px/2);
+transform:scale(10);}
+
+30%{
+left:calc(50% - 260px / 2);
+top:calc(50%-260px/2);
+transform:scale(15);}
+
+40%{transform:scale(1) perspective(800px) rotatey(0deg) rotatex(0deg) scale(1) translate(0);}
+
+90%{left:calc(50% - 260px / 2);
+top:calc(50% - 260px / 2);
+transform:rotatex(180deg) rotatey(90deg) scale(1) translate(0);
+
+
+
+
+
+
+}}
+
+
+.circle5{height:230px;
+width:230px;
+background:transparent;
+border:7px solid #00ff08;
+border:none;
+border-radius: 50%;
+position:absolute;
+animation:circle5 linear 1 13s;
+left:calc(50% - 230px / 2);
+top:calc(50% - 230px / 2);
+box-shadow: 0px 0px 10px 10px #4dff00;
+}
+
+
+@keyframes circle5{0%{
+left:calc(50% - 230px / 2);
+top:calc(100% - 230px / 2);
+}
+
+5%{left:calc(50% - 230px / 2);
+top:calc(50% - 230px / 2);
+transform:rotatex(-360deg) rotatey(-30deg) translate(0) scale(1) translate(0);
+}
+
+10%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+20%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+25%{transform:scale(10);
+left:calc(50% -230px/2);
+top:calc(50% -230px/2);
+}
+
+30%{
+left:calc(50% - 230px / 2);
+top:calc(50%-230px/2);
+transform:scale(15);}
+
+40%{transform:scale(1) perspective(800px) rotatey(0deg) rotatex(0deg) scale(1) translate(0);}
+
+90%{left:calc(50% - 230px / 2);
+top:calc(50% - 230px / 2);
+transform:rotatex(180deg) rotatey(90deg) scale(1) translate(0);
+}
+
+
+
+
+
+
+}
+
+
+.circle6{height:200px;
+width:200px;
+background:transparent;
+border:8px solid #d9ff00;
+border:none;
+border-radius: 50%;
+position:absolute;
+animation:circle6 linear 1 14s ;
+left:calc(50% - 200px / 2);
+top:calc(50% - 200px / 2);
+box-shadow: 0px 0px 10px 10px #ffee00;
+}
+
+
+@keyframes circle6{0%{
+left:calc(50% - 200px / 2);
+top:calc(100% - 200px / 2);
+
+
+}
+
+5%{left:calc(50% - 200px / 2);
+top:calc(50% - 200px / 2);
+transform:rotatex(-360deg) rotatey(-30deg) translate(0) scale(1) translate(0);
+}
+
+10%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+20%{transform: perspective(800px) rotatey(0deg) rotatex(0deg) scale(1);}
+
+25%{transform:scale(10);
+top:calc(50% -200px/2);
+left:calc(50% - 200px / 2);}
+
+30%{
+left:calc(50% - 200px / 2);
+top:calc(50%-200px/2);
+transform:scale(15);}
+
+40%{transform:scale(1) perspective(800px) rotatey(0deg) rotatex(0deg) scale(1) translate(0);}
+
+90%{left:calc(50% - 200px / 2);
+top:calc(50% - 200px / 2);
+transform:rotatex(180deg) rotatey(90deg) scale(1) translate(0);
+
+
+
+
+
+
+}}
